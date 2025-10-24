@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - hawaan</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/images/logo/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <link rel="stylesheet" href="/assets/css/modules.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+  <style>
+    .help-center-container {
+      padding: 60px 0;
+      background: #f8f9fa;
+      min-height: 80vh;
+    }
+
+    .help-center-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .help-center-title {
+      font-size: 3rem;
+      color: #333;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+
+    .help-center-subtitle {
+      color: #666;
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    .search-box {
+      max-width: 500px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 15px 50px 15px 20px;
+      border: 2px solid #ddd;
+      border-radius: 50px;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--salmon-pink);
+      box-shadow: 0 0 0 3px rgba(255, 99, 99, 0.1);
+    }
+
+    .search-btn {
+      position: absolute;
+      right: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--salmon-pink);
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .search-btn:hover {
+      background: #ff6b6b;
+    }
+
+    .help-categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+
+    .help-category {
+      background: white;
+      border-radius: 15px;
+      padding: 35px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .help-category:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    }
+
+    .category-icon {
+      font-size: 3.5rem;
+      color: var(--salmon-pink);
+      margin-bottom: 20px;
+    }
+
+    .category-title {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .category-description {
+      color: #666;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+
+    .category-topics {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+    }
+
+    .category-topics li {
+      padding: 8px 0;
+      border-bottom: 1px solid #f0f0f0;
+      color: #555;
+      transition: color 0.3s ease;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .category-topics li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--salmon-pink);
+      font-weight: bold;
+    }
+
+    .category-topics li:hover {
+      color: var(--salmon-pink);
+    }
+
+    .category-topics li:last-child {
+      border-bottom: none;
+    }
+
+    .popular-articles {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    .popular-title {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 30px;
+      font-weight: 600;
+      text-align: center;
+      position: relative;
+    }
+
+    .popular-title::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: var(--salmon-pink);
+      border-radius: 2px;
+    }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .article-item {
+      padding: 25px;
+      background: #f8f9fa;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .article-item:hover {
+      background: white;
+      border-color: var(--salmon-pink);
+      transform: translateY(-3px);
+    }
+
+    .article-title {
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .article-excerpt {
+      color: #666;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .contact-support {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border-radius: 15px;
+      padding: 50px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .contact-title {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .contact-description {
+      margin-bottom: 30px;
+      opacity: 0.9;
+      font-size: 1.1rem;
+    }
+
+    .contact-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .contact-btn {
+      padding: 15px 25px;
+      background: rgba(255,255,255,0.2);
+      color: white;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .contact-btn:hover {
+      background: rgba(255,255,255,0.3);
+      border-color: rgba(255,255,255,0.5);
+      transform: translateY(-3px);
+    }
+
+    .quick-links {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
+
+    .quick-links-title {
+      font-size: 1.8rem;
+      color: #333;
+      margin-bottom: 25px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .quick-link {
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #333;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: 2px solid transparent;
+    }
+
+    .quick-link:hover {
+      background: var(--salmon-pink);
+      color: white;
+      transform: translateX(5px);
+      border-color: var(--salmon-pink);
+    }
+
+    .link-icon {
+      font-size: 1.3rem;
+    }
+
+    @media (max-width: 768px) {
+      .help-center-title {
+        font-size: 2.2rem;
+      }
+      
+      .help-categories {
+        grid-template-columns: 1fr;
+      }
+      
+      .contact-buttons {
+        grid-template-columns: 1fr;
+      }
+      
+      .help-category {
+        padding: 25px;
+      }
+    }
+  </style>
+<body>
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="/index.html" class="header-logo">
+          <img src="/assets/images/logo/hawaan-sstlogo.png" alt="" height="120px">
+        </a>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Free Shipping</b>
+            This Week Order Over - $55
+          </p>
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn" onclick="navigateToWishlist()">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count" id="wishlist-count">0</span>
+          </button>
+
+          <button class="action-btn" onclick="navigateToCart()">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count" id="cart-count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="/index.html" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Jewellery</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/jewellery/earring.html">Earrings</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/jewellery/couplerings.html">Couple Rings</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/jewellery/necklace.html">Necklace</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/jewellery/bracelet.html">Bracelets</a>
+                </li>
+
+                
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Perfumes</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/perfumes/floral.html">Floral</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/perfumes/oriental.html">Oriental</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/perfumes/woody.html">Woody</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/perfumes/fougere.html">Fougère</a>
+                </li>
+
+                
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul><ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Men's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/mens-accessories/sunglasses.html">Sun Glasses</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/mens-accessories/watches.htm">Watches</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/mens-accessories/wallets.html">Wallets</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/mens-accessories/shoes.html">Shoes</a>
+                </li>
+
+                
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Women's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/makeup/lipstick.html">Lipstick</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/makeup/eyeliner.html">Eyeliner</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/makeup/primer.html">Primer</a>
+                </li>
+
+                
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/makeup/mascara.html">Mascara</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/electronics/sw.html">Smart Watch</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/electronics/stv.html">Smart TV</a>
+                </li>
+
+                
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/electronics/mouse.html">Mouse</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="/other pages/Categories/electronics/microphone.html">Microphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Men's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/mens-collection/formal.html">Formal</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/mens-collection/casual.html">Casual</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/mens-collection/tshirts.html">Tshirts</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/mens-collection/jackets.html">Jackets</a>
+              </li>
+
+            <li class="dropdown-item">
+                <a href="/other pages/Categories/mens-collection/shorts.html">Shorts</a>
+              </li></ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Women's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/womens-collection/formal.html">Formal</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/womens-collection/kurtas&suits.html">Kurtas &amp; Suits</a>
+              </li><li class="dropdown-item">
+                <a href="/other pages/Categories/womens-collection/saree.html">Saree</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/womens-collection/lehenga&cholis.html">Lehenga Cholis</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/womens-collection/dupattas&shawls.html">Dupattas &amp; Shawls</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Kid's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/kids-collection/formal.html">Formal</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/kids-collection/casual.html">Casual</a>
+              </li><li class="dropdown-item">
+                <a href="/other pages/Categories/kids-collection/shorts.html">Shorts</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/kids-collection/trousers.html">Trousers</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/other pages/Categories/kids-collection/tshirts.html">Tshirts</a>
+              </li>
+
+            </ul>
+          </li>
+
+          
+
+          <li class="menu-category">
+            <a href="/other pages/blogs.html" class="menu-title">Blog</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn" onclick="navigateToCart()">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+        <span class="count" id="mobile-cart-count">0</span>
+      </button>
+
+      <button class="action-btn" onclick="window.location.href='/index.html'">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn" onclick="navigateToWishlist()">
+        <ion-icon name="heart-outline"></ion-icon>
+        <span class="count" id="mobile-wishlist-count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu="">
+
+  <div class="menu-top">
+    <h2 class="menu-title">Menu</h2>
+    <button class="menu-close-btn" data-mobile-menu-close-btn="">
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+  </div>
+
+  <ul class="mobile-menu-category-list">
+
+    <li class="menu-category">
+      <a href="/index.html" class="menu-title">Home</a>
+    </li>
+
+    <!-- Men's -->
+    <li class="menu-category">
+      <button class="accordion-menu active" data-accordion-btn="">
+        <p class="menu-title">Men's</p>
+        <div>
+          <ion-icon name="add-outline" class="add-icon"></ion-icon>
+          <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+        </div>
+      </button>
+      <ul class="submenu-category-list active" data-accordion="">
+        <li class="submenu-category"><a href="/other pages/Categories/mens-collection/formal.html" class="submenu-title">Formal</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/mens-collection/casual.html" class="submenu-title">Casual</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/mens-collection/tshirts.html" class="submenu-title">Tshirts</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/mens-collection/jackets.html" class="submenu-title">Jackets</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/mens-collection/shorts.html" class="submenu-title">Shorts</a></li>
+      </ul>
+    </li>
+
+    <!-- Women's -->
+    <li class="menu-category">
+      <button class="accordion-menu" data-accordion-btn="">
+        <p class="menu-title">Women's</p>
+        <div>
+          <ion-icon name="add-outline" class="add-icon"></ion-icon>
+          <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+        </div>
+      </button>
+      <ul class="submenu-category-list" data-accordion="">
+        <li class="submenu-category"><a href="/other pages/Categories/womens-collection/formal.html" class="submenu-title">Formal</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/womens-collection/kurtas&suits.html" class="submenu-title">Kurtas & Suits</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/womens-collection/saree.html" class="submenu-title">Saree</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/womens-collection/lehenga&cholis.html" class="submenu-title">Lehenga Cholis</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/womens-collection/dupattas&shawls.html" class="submenu-title">Dupattas & Shawls</a></li>
+      </ul>
+    </li>
+
+    <!-- Kid's -->
+    <li class="menu-category">
+      <button class="accordion-menu" data-accordion-btn="">
+        <p class="menu-title">Kid's</p>
+        <div>
+          <ion-icon name="add-outline" class="add-icon"></ion-icon>
+          <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+        </div>
+      </button>
+      <ul class="submenu-category-list" data-accordion="">
+        <li class="submenu-category"><a href="/other pages/Categories/kids-collection/formal.html" class="submenu-title">Formal</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/kids-collection/casual.html" class="submenu-title">Casual</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/kids-collection/shorts.html" class="submenu-title">Shorts</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/kids-collection/trousers.html" class="submenu-title">Trousers</a></li>
+        <li class="submenu-category"><a href="/other pages/Categories/kids-collection/tshirts.html" class="submenu-title">Tshirts</a></li>
+      </ul>
+    </li>
+
+    <!-- Blog -->
+    <li class="menu-category">
+      <a href="/other pages/blogs.html" class="menu-title">Blog</a>
+    </li>
+
+  </ul>
+
+  <div class="menu-bottom">
+
+    <ul class="menu-social-container">
+      <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li><a href="#" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+    </ul>
+
+  </div>
+
+</nav>
+
+
+
+
+
+  </header>
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <div class="help-center-container">
+      <div class="container">
+        
+        <div class="help-center-header">
+          <h1 class="help-center-title">Help Center</h1>
+          <p class="help-center-subtitle">
+            Find answers to your questions, get help with your orders, and learn how to make the most of your shopping experience with HAWAAN.
+          </p>
+          
+          <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search for help articles...">
+            <button class="search-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+
+        <div class="help-categories">
+          
+          <!-- Getting Started -->
+          <div class="help-category">
+            <div class="category-icon">🚀</div>
+            <h3 class="category-title">Getting Started</h3>
+            <p class="category-description">New to HAWAAN? Learn the basics of shopping with us and get started quickly.</p>
+            <ul class="category-topics">
+              <li>Creating an account</li>
+              <li>How to place an order</li>
+              <li>Payment methods</li>
+              <li>Account settings</li>
+              <li>First-time buyer guide</li>
+            </ul>
+          </div>
+
+          <!-- Orders & Shipping -->
+          <div class="help-category">
+            <div class="category-icon">📦</div>
+            <h3 class="category-title">Orders & Shipping</h3>
+            <p class="category-description">Everything you need to know about your orders and delivery process.</p>
+            <ul class="category-topics">
+              <li>Order tracking</li>
+              <li>Shipping options</li>
+              <li>Delivery times</li>
+              <li>Order modifications</li>
+              <li>International shipping</li>
+            </ul>
+          </div>
+
+          <!-- Returns & Exchanges -->
+          <div class="help-category">
+            <div class="category-icon">🔄</div>
+            <h3 class="category-title">Returns & Exchanges</h3>
+            <p class="category-description">Need to return or exchange an item? We've got you covered with our easy process.</p>
+            <ul class="category-topics">
+              <li>Return policy</li>
+              <li>How to return items</li>
+              <li>Exchange process</li>
+              <li>Refund timeline</li>
+              <li>Return shipping</li>
+            </ul>
+          </div>
+
+          <!-- Size & Fit -->
+          <div class="help-category">
+            <div class="category-icon">📏</div>
+            <h3 class="category-title">Size & Fit</h3>
+            <p class="category-description">Find your perfect size with our comprehensive guides and measurement tips.</p>
+            <ul class="category-topics">
+              <li>Size charts</li>
+              <li>Fit guides</li>
+              <li>Measurement tips</li>
+              <li>Size exchanges</li>
+              <li>International sizing</li>
+            </ul>
+          </div>
+
+          <!-- Account & Profile -->
+          <div class="help-category">
+            <div class="category-icon">👤</div>
+            <h3 class="category-title">Account & Profile</h3>
+            <p class="category-description">Manage your account settings and personal information easily.</p>
+            <ul class="category-topics">
+              <li>Update profile</li>
+              <li>Change password</li>
+              <li>Address book</li>
+              <li>Email preferences</li>
+              <li>Privacy settings</li>
+            </ul>
+          </div>
+
+          <!-- Technical Support -->
+          <div class="help-category">
+            <div class="category-icon">⚙️</div>
+            <h3 class="category-title">Technical Support</h3>
+            <p class="category-description">Having technical issues? Get help with website and app problems.</p>
+            <ul class="category-topics">
+              <li>Website issues</li>
+              <li>Mobile app help</li>
+              <li>Browser compatibility</li>
+              <li>Troubleshooting</li>
+              <li>Performance issues</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Popular Articles -->
+        <div class="popular-articles">
+          <h2 class="popular-title">Popular Articles</h2>
+          
+          <div class="articles-grid">
+            <div class="article-item">
+              <h4 class="article-title">How long does shipping take?</h4>
+              <p class="article-excerpt">Learn about our different shipping options and expected delivery times for your location.</p>
+            </div>
+
+            <div class="article-item">
+              <h4 class="article-title">What is your return policy?</h4>
+              <p class="article-excerpt">Understand our 30-day return policy and how to return items for a full refund.</p>
+            </div>
+
+            <div class="article-item">
+              <h4 class="article-title">How to find my size?</h4>
+              <p class="article-excerpt">Use our comprehensive size guide to find the perfect fit for all our products.</p>
+            </div>
+
+            <div class="article-item">
+              <h4 class="article-title">How to track my order?</h4>
+              <p class="article-excerpt">Step-by-step guide to tracking your order from placement to delivery.</p>
+            </div>
+
+            <div class="article-item">
+              <h4 class="article-title">What payment methods do you accept?</h4>
+              <p class="article-excerpt">See all the payment options available for your convenience and security.</p>
+            </div>
+
+            <div class="article-item">
+              <h4 class="article-title">Having trouble with your account?</h4>
+              <p class="article-excerpt">Common account issues and how to resolve them quickly and easily.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Support -->
+        <div class="contact-support">
+          <h2 class="contact-title">Still need help?</h2>
+          <p class="contact-description">
+            Can't find what you're looking for? Our customer support team is here to help you 24/7.
+          </p>
+          
+          <div class="contact-buttons">
+            <a href="#" class="contact-btn">
+              💬 Live Chat
+            </a>
+            <a href="mailto:support@hawaan.com" class="contact-btn">
+              ✉️ Email Support
+            </a>
+            <a href="tel:+607936-8058" class="contact-btn">
+              📞 Call Us
+            </a>
+            <a href="/orders-support.html" class="contact-btn">
+              📝 Submit Ticket
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="quick-links">
+          <h3 class="quick-links-title">Quick Links</h3>
+          
+          <div class="links-grid">
+            <a href="/size-guide.html" class="quick-link">
+              <span class="link-icon">📏</span>
+              Size Guide
+            </a>
+            <a href="/orders-support.html" class="quick-link">
+              <span class="link-icon">📦</span>
+              Track Order
+            </a>
+            <a href="#" class="quick-link">
+              <span class="link-icon">🔄</span>
+              Return Policy
+            </a>
+            <a href="#" class="quick-link">
+              <span class="link-icon">💳</span>
+              Payment Info
+            </a>
+            <a href="#" class="quick-link">
+              <span class="link-icon">🛡️</span>
+              Privacy Policy
+            </a>
+            <a href="#" class="quick-link">
+              <span class="link-icon">📋</span>
+              Terms of Service
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+        <div class="footer-category">
+            <div class="container">
+                <h2 class="footer-category-title">Product Directory</h2>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Jewellery :</h3>
+                    <a href="/other pages/Categories/jewellery/earring.html" class="footer-category-link">Earrings</a>
+                    <a href="/other pages/Categories/jewellery/couplerings.html" class="footer-category-link">Couple Rings</a>
+                    <a href="/other pages/Categories/jewellery/necklace.html" class="footer-category-link">Necklace</a>
+                    <a href="/other pages/Categories/jewellery/bracelet.html" class="footer-category-link">Bracelets</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Perfumes :</h3>
+                    <a href="/other pages/Categories/perfumes/floral.html" class="footer-category-link">Floral</a>
+                    <a href="/other pages/Categories/perfumes/oriental.html" class="footer-category-link">Oriental</a>
+                    <a href="/other pages/Categories/perfumes/woody.html" class="footer-category-link">Woody</a>
+                    <a href="/other pages/Categories/perfumes/fougere.html" class="footer-category-link">Fougère</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Men's Collection :</h3>
+                    <a href="/other pages/Categories/mens-collection/formal.html" class="footer-category-link">Formal</a>
+                    <a href="/other pages/Categories/mens-collection/casual.html" class="footer-category-link">Casual</a>
+                    <a href="/other pages/Categories/mens-collection/tshirts.html" class="footer-category-link">T-shirts</a>
+                    <a href="/other pages/Categories/mens-collection/jackets.html" class="footer-category-link">Jackets</a>
+                    <a href="/other pages/Categories/mens-collection/shorts.html" class="footer-category-link">Shorts</a>
+                    <a href="/other pages/Categories/mens-accessories/sunglasses.html" class="footer-category-link">Sunglasses</a>
+                    <a href="/other pages/Categories/mens-accessories/watches.htm" class="footer-category-link">Watches</a>
+                    <a href="/other pages/Categories/mens-accessories/wallets.html" class="footer-category-link">Wallets</a>
+                    <a href="/other pages/Categories/mens-accessories/shoes.html" class="footer-category-link">Shoes</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Women's Collection :</h3>
+                    <a href="/other pages/Categories/womens-collection/formal.html" class="footer-category-link">Formal</a>
+                    <a href="/other pages/Categories/womens-collection/kurtas&suits.html" class="footer-category-link">Kurtas & Suits</a>
+                    <a href="/other pages/Categories/womens-collection/saree.html" class="footer-category-link">Saree</a>
+                    <a href="/other pages/Categories/womens-collection/lehenga&cholis.html" class="footer-category-link">Lehenga Cholis</a>
+                    <a href="/other pages/Categories/womens-collection/dupattas&shawls.html" class="footer-category-link">Dupattas & Shawls</a>
+                    <a href="/other pages/Categories/makeup/lipstick.html" class="footer-category-link">Lipstick</a>
+                    <a href="/other pages/Categories/makeup/eyeliner.html" class="footer-category-link">Eyeliner</a>
+                    <a href="/other pages/Categories/makeup/primer.html" class="footer-category-link">Primer</a>
+                    <a href="/other pages/Categories/makeup/mascara.html" class="footer-category-link">Mascara</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Kids Collection :</h3>
+                    <a href="/other pages/Categories/kids-collection/formal.html" class="footer-category-link">Formal</a>
+                    <a href="/other pages/Categories/kids-collection/casual.html" class="footer-category-link">Casual</a>
+                    <a href="/other pages/Categories/kids-collection/shorts.html" class="footer-category-link">Shorts</a>
+                    <a href="/other pages/Categories/kids-collection/trousers.html" class="footer-category-link">Trousers</a>
+                    <a href="/other pages/Categories/kids-collection/tshirts.html" class="footer-category-link">T-shirts</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Electronics :</h3>
+                    <a href="/other pages/Categories/electronics/sw.html" class="footer-category-link">Smart Watch</a>
+                    <a href="/other pages/Categories/electronics/stv.html" class="footer-category-link">Smart TV</a>
+                    <a href="/other pages/Categories/electronics/mouse.html" class="footer-category-link">Mouse</a>
+                    <a href="/other pages/Categories/electronics/microphone.html" class="footer-category-link">Microphone</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-nav">
+            <div class="container">
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Main Categories</h2>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/index.html" class="footer-nav-link">Home</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/jewellery/earring.html" class="footer-nav-link">Jewellery</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/perfumes/floral.html" class="footer-nav-link">Perfumes</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/mens-collection/formal.html" class="footer-nav-link">Men's Collection</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/womens-collection/formal.html" class="footer-nav-link">Women's Collection</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/kids-collection/formal.html" class="footer-nav-link">Kids Collection</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/electronics/sw.html" class="footer-nav-link">Electronics</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Popular Collections</h2>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/jewellery/earring.html" class="footer-nav-link">Trending Earrings</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/perfumes/floral.html" class="footer-nav-link">Premium Perfumes</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/mens-collection/formal.html" class="footer-nav-link">Men's Formal Wear</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/womens-collection/saree.html" class="footer-nav-link">Designer Sarees</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Categories/electronics/sw.html" class="footer-nav-link">Smart Watches</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Company Info</h2>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/about.html" class="footer-nav-link">About Us</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/blogs.html" class="footer-nav-link">Blog</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/privacypolicy.html" class="footer-nav-link">Privacy Policy</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/terms&conditions.html" class="footer-nav-link">Terms & Conditions</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Returnpolicy.html" class="footer-nav-link">Return Policy</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Customer Service</h2>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/contact.html" class="footer-nav-link">Contact Us</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/Helpcenter.html" class="footer-nav-link">Help Center</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/ordersupport.html" class="footer-nav-link">Order Support</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/sizeguide.html" class="footer-nav-link">Size Guide</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="/other pages/faq.html" class="footer-nav-link">FAQ</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Contact</h2>
+                    </li>
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            📍
+                        </div>
+                        <address class="content">
+                            419 State 414 Rte<br>
+                            Beaver Dams, New York(NY), 14812, USA
+                        </address>
+                    </li>
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            📞
+                        </div>
+                        <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+                    </li>
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            ✉️
+                        </div>
+                        <a href="mailto:example@gmail.com" class="footer-nav-link">example@gmail.com</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Follow Us</h2>
+                    </li>
+                    <li>
+                        <ul class="social-link">
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">📘</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">🐦</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">💼</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">📷</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <img src="/assets/images/payment.png" alt="payment methods" class="payment-img">
+                <p class="copyright">
+                    Copyright &copy; <a href="#">Hawaan</a> all rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+  <!--
+    - custom js link
+  -->
+  <script src="/assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

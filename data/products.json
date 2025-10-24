@@ -1,0 +1,1289 @@
+{
+    "mens-collection": {
+        "formal": [
+            {
+                "id": "mf003",
+                "name": "Leather Formal Shoes",
+                "price": 159.99,
+                "originalPrice": 199.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "Genuine leather formal shoes with comfortable sole",
+                "brand": "FormalStep",
+                "rating": 4,
+                "inStock": true,
+                "is_featured": true,
+                "sizes": [
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "colors": [
+                    "Black",
+                    "Brown"
+                ]
+            },
+            {
+                "id": "mf004",
+                "name": "Casual Brown Shoes",
+                "price": 99,
+                "originalPrice": 105,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-2.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-2_1.jpg",
+                "description": "Comfortable brown casual shoes for everyday wear",
+                "brand": "ComfortStep",
+                "rating": 5,
+                "inStock": true,
+                "category": "formal",
+                "sizes": [
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "colors": [
+                    "Brown",
+                    "Tan"
+                ]
+            },
+            {
+                "id": "mf687a1b4cbf151",
+                "name": "adas",
+                "price": 232,
+                "originalPrice": 244,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-4.jpg",
+                "description": "123",
+                "brand": "Hawaan",
+                "rating": 4,
+                "inStock": true,
+                "is_featured": false,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            },
+            {
+                "id": "mf687a2b9bcf80d",
+                "name": "Classic Black Suit",
+                "price": 241,
+                "originalPrice": 255,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-4.jpg",
+                "description": "2312",
+                "brand": "Hawaan",
+                "rating": 5,
+                "inStock": true,
+                "is_featured": false,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            },
+            {
+                "id": "mf687a6078a8df4",
+                "name": "adas",
+                "price": 24,
+                "originalPrice": 29,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-4.jpg",
+                "description": "hamza",
+                "brand": "Hawaan",
+                "rating": 5,
+                "inStock": true,
+                "is_featured": false,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            }
+        ],
+        "casual": [
+            {
+                "id": "mc001",
+                "name": "Casual Brown Shoes",
+                "price": 99,
+                "originalPrice": 105,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-2.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-2_1.jpg",
+                "description": "Comfortable brown casual shoes for everyday wear",
+                "brand": "ComfortStep",
+                "rating": 5,
+                "inStock": true,
+                "category": "casual",
+                "sizes": [
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "colors": [
+                    "Brown",
+                    "Tan"
+                ]
+            },
+            {
+                "id": "mc002",
+                "name": "Winter Leather Jacket",
+                "price": 189.99,
+                "originalPrice": 250,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-2.jpg",
+                "description": "Stylish winter leather jacket for casual wear",
+                "brand": "StyleCraft",
+                "rating": 4,
+                "inStock": true,
+                "category": "casual",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Brown"
+                ]
+            }
+        ],
+        "tshirts": [
+            {
+                "id": "mt001",
+                "name": "Cotton T-Shirt",
+                "price": 29.99,
+                "originalPrice": 39.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/2.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/3.jpg",
+                "description": "100% cotton comfortable t-shirt",
+                "brand": "ComfortWear",
+                "rating": 4,
+                "inStock": true,
+                "category": "tshirts",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "White",
+                    "Black",
+                    "Navy",
+                    "Gray"
+                ]
+            }
+        ],
+        "jackets": [
+            {
+                "id": "mj001",
+                "name": "Fleece Full-Zip Jacket",
+                "price": 58,
+                "originalPrice": 65,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-5.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-6.jpg",
+                "description": "Warm fleece jacket with full-zip design",
+                "brand": "StyleCraft",
+                "rating": 3,
+                "inStock": true,
+                "category": "jackets",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Navy",
+                    "Black",
+                    "Gray"
+                ]
+            }
+        ],
+        "shorts": [
+            {
+                "id": "ms001",
+                "name": "French Terry Sweatshorts",
+                "price": 78,
+                "originalPrice": 85,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shorts-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shorts-2.jpg",
+                "description": "Comfortable French terry sweatshorts",
+                "brand": "ComfortWear",
+                "rating": 3,
+                "inStock": true,
+                "category": "shorts",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Gray",
+                    "Navy",
+                    "Black"
+                ]
+            }
+        ]
+    },
+    "womens-collection": {
+        "formal": [
+            {
+                "id": "wf001",
+                "name": "Black Floral Wrap Midi Skirt",
+                "price": 25,
+                "originalPrice": 35,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/clothes-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/clothes-4.jpg",
+                "description": "Elegant floral wrap midi skirt perfect for formal occasions",
+                "brand": "FashionPlus",
+                "rating": 5,
+                "inStock": true,
+                "category": "formal",
+                "sizes": [
+                    "XS",
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Burgundy"
+                ]
+            },
+            {
+                "id": "wf687a2d58589d6",
+                "name": "haa",
+                "price": 241,
+                "originalPrice": 255,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-4.jpg",
+                "description": "21",
+                "brand": "Hawaan",
+                "rating": 3,
+                "inStock": true,
+                "is_featured": false,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            },
+            {
+                "id": "wf688bae6cdc0eb",
+                "name": "Girls Wear",
+                "price": 23,
+                "originalPrice": 53,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "sadsadasda",
+                "brand": "Hawaan",
+                "rating": 5,
+                "inStock": true,
+                "is_featured": true,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "red",
+                    "purple",
+                    "pink"
+                ]
+            },
+            {
+                "id": "wf688bb36da4825",
+                "name": "adas",
+                "price": 12,
+                "originalPrice": 32,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "sasdsadsadsda",
+                "brand": "Hawaan",
+                "rating": 4,
+                "inStock": true,
+                "is_featured": true,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "red",
+                    "purple",
+                    "pink"
+                ]
+            },
+            {
+                "id": "wf688bb43630607",
+                "name": "adas",
+                "price": 12,
+                "originalPrice": 31,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "dsawedsa",
+                "brand": "Hawaan",
+                "rating": 3,
+                "inStock": true,
+                "is_featured": true,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            }
+        ],
+        "kurtas&suits": [
+            {
+                "id": "wk001",
+                "name": "Traditional Kurta Set",
+                "price": 89.99,
+                "originalPrice": 120,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/clothes-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/clothes-4.jpg",
+                "description": "Beautiful traditional kurta with matching dupatta",
+                "brand": "EthnicWear",
+                "rating": 4,
+                "inStock": true,
+                "category": "kurtas&suits",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Pink",
+                    "Blue",
+                    "Green",
+                    "Yellow"
+                ]
+            },
+            {
+                "id": "wk68a050d90dc08",
+                "name": "adas",
+                "price": 23,
+                "originalPrice": 32,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "sdasd",
+                "brand": "Hawaan",
+                "rating": 3,
+                "inStock": true,
+                "is_featured": false,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            }
+        ],
+        "saree": [
+            {
+                "id": "ws001",
+                "name": "Silk Saree",
+                "price": 199.99,
+                "originalPrice": 299.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/clothes-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/clothes-4.jpg",
+                "description": "Premium silk saree with intricate designs",
+                "brand": "SilkTradition",
+                "rating": 5,
+                "inStock": true,
+                "category": "saree",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Red",
+                    "Blue",
+                    "Green",
+                    "Gold"
+                ]
+            }
+        ],
+        "lehenga&cholis": [
+            {
+                "id": "wl001",
+                "name": "Designer Lehenga Choli",
+                "price": 299.99,
+                "originalPrice": 450,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/clothes-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/clothes-4.jpg",
+                "description": "Stunning designer lehenga choli for special occasions",
+                "brand": "DesignerWear",
+                "rating": 5,
+                "inStock": true,
+                "category": "lehenga&cholis",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Pink",
+                    "Red",
+                    "Blue",
+                    "Purple"
+                ]
+            }
+        ],
+        "dupattas&shawls": [
+            {
+                "id": "wd001",
+                "name": "Silk Dupatta",
+                "price": 49.99,
+                "originalPrice": 69.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/clothes-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/clothes-4.jpg",
+                "description": "Elegant silk dupatta with beautiful embroidery",
+                "brand": "SilkCraft",
+                "rating": 4,
+                "inStock": true,
+                "category": "dupattas&shawls",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Pink",
+                    "Blue",
+                    "Green",
+                    "Gold"
+                ]
+            }
+        ]
+    },
+    "kids-collection": {
+        "formal": [
+            {
+                "id": "kf001",
+                "name": "Kids Formal Suit",
+                "price": 79.99,
+                "originalPrice": 99.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/2.jpg",
+                "description": "Adorable formal suit for kids",
+                "brand": "KidsFashion",
+                "rating": 4,
+                "inStock": true,
+                "category": "formal",
+                "sizes": [
+                    "2T",
+                    "3T",
+                    "4T",
+                    "5T",
+                    "6T"
+                ],
+                "colors": [
+                    "Navy",
+                    "Black",
+                    "Gray"
+                ]
+            },
+            {
+                "id": "kf688baf8d4551b",
+                "name": "Classic Black Suit",
+                "price": 12,
+                "originalPrice": 24,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "Kids Wear",
+                "brand": "Hawaan",
+                "rating": 3,
+                "inStock": true,
+                "is_featured": true,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            }
+        ],
+        "casual": [
+            {
+                "id": "kc001",
+                "name": "Kids Casual Outfit",
+                "price": 39.99,
+                "originalPrice": 49.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/4.jpg",
+                "description": "Comfortable casual outfit for kids",
+                "brand": "KidsComfort",
+                "rating": 5,
+                "inStock": true,
+                "category": "casual",
+                "sizes": [
+                    "2T",
+                    "3T",
+                    "4T",
+                    "5T",
+                    "6T"
+                ],
+                "colors": [
+                    "Blue",
+                    "Red",
+                    "Green",
+                    "Yellow"
+                ]
+            }
+        ],
+        "shorts": [
+            {
+                "id": "ks001",
+                "name": "Kids Summer Shorts",
+                "price": 24.99,
+                "originalPrice": 29.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shorts-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shorts-2.jpg",
+                "description": "Comfortable summer shorts for kids",
+                "brand": "SummerKids",
+                "rating": 4,
+                "inStock": true,
+                "category": "shorts",
+                "sizes": [
+                    "2T",
+                    "3T",
+                    "4T",
+                    "5T",
+                    "6T"
+                ],
+                "colors": [
+                    "Blue",
+                    "Red",
+                    "Green"
+                ]
+            }
+        ],
+        "trousers": [
+            {
+                "id": "kt001",
+                "name": "Kids Formal Trousers",
+                "price": 34.99,
+                "originalPrice": 44.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/2.jpg",
+                "description": "Formal trousers for kids",
+                "brand": "KidsFormal",
+                "rating": 4,
+                "inStock": true,
+                "category": "trousers",
+                "sizes": [
+                    "2T",
+                    "3T",
+                    "4T",
+                    "5T",
+                    "6T"
+                ],
+                "colors": [
+                    "Navy",
+                    "Black",
+                    "Khaki"
+                ]
+            }
+        ],
+        "tshirts": [
+            {
+                "id": "kt001",
+                "name": "Kids Cotton T-Shirt",
+                "price": 19.99,
+                "originalPrice": 24.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/2.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/3.jpg",
+                "description": "Soft cotton t-shirt for kids",
+                "brand": "KidsComfort",
+                "rating": 5,
+                "inStock": true,
+                "category": "tshirts",
+                "sizes": [
+                    "2T",
+                    "3T",
+                    "4T",
+                    "5T",
+                    "6T"
+                ],
+                "colors": [
+                    "White",
+                    "Blue",
+                    "Pink",
+                    "Yellow"
+                ]
+            }
+        ]
+    },
+    "makeup": {
+        "lipstick": [
+            {
+                "id": "ml001",
+                "name": "Matte Lipstick",
+                "price": 24.99,
+                "originalPrice": 29.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "description": "Long-lasting matte lipstick",
+                "brand": "BeautyPro",
+                "rating": 4,
+                "inStock": true,
+                "category": "lipstick",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Red",
+                    "Pink",
+                    "Nude",
+                    "Berry"
+                ]
+            },
+            {
+                "id": "ml68796cb6d0a64",
+                "name": "adas",
+                "price": 132,
+                "originalPrice": 222,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-4.jpg",
+                "description": "free! free! free!",
+                "brand": "Hawaan",
+                "rating": 4,
+                "inStock": true,
+                "is_featured": false,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            },
+            {
+                "id": "ml68796cfe555ea",
+                "name": "adas",
+                "price": 23,
+                "originalPrice": 31,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-4.jpg",
+                "description": "231",
+                "brand": "13",
+                "rating": 3,
+                "inStock": true,
+                "is_featured": false,
+                "sizes": [
+                    "1"
+                ],
+                "colors": [
+                    "231"
+                ]
+            },
+            {
+                "id": "ml688b87c37e392",
+                "name": "zoo",
+                "price": 23,
+                "originalPrice": 41,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-4.jpg",
+                "description": " DESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTION ",
+                "brand": "Hawaan",
+                "rating": 3,
+                "inStock": true,
+                "is_featured": false,
+                "sizes": [
+                    ""
+                ],
+                "colors": [
+                    "red",
+                    "purple",
+                    "pink"
+                ]
+            }
+        ],
+        "eyeliner": [
+            {
+                "id": "me001",
+                "name": "Waterproof Eyeliner",
+                "price": 19.99,
+                "originalPrice": 24.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "description": "Smudge-proof waterproof eyeliner",
+                "brand": "EyePerfect",
+                "rating": 5,
+                "inStock": true,
+                "category": "eyeliner",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Black",
+                    "Brown",
+                    "Blue"
+                ]
+            }
+        ],
+        "primer": [
+            {
+                "id": "mp001",
+                "name": "Face Primer",
+                "price": 34.99,
+                "originalPrice": 39.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "description": "Smoothing face primer for flawless makeup",
+                "brand": "PrimePerfect",
+                "rating": 4,
+                "inStock": true,
+                "category": "primer",
+                "sizes": [
+                    "30ml",
+                    "50ml"
+                ],
+                "colors": [
+                    "Clear",
+                    "Tinted"
+                ]
+            }
+        ],
+        "mascara": [
+            {
+                "id": "mm001",
+                "name": "Volume Mascara",
+                "price": 29.99,
+                "originalPrice": 34.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "description": "Volumizing mascara for dramatic lashes",
+                "brand": "LashPerfect",
+                "rating": 5,
+                "inStock": true,
+                "category": "mascara",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Black",
+                    "Brown",
+                    "Blue"
+                ]
+            }
+        ]
+    },
+    "perfumes": {
+        "floral": [
+            {
+                "id": "pf001",
+                "name": "Rose Garden Perfume",
+                "price": 89.99,
+                "originalPrice": 120,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "description": "Elegant floral perfume with rose notes",
+                "brand": "FloralScents",
+                "rating": 5,
+                "inStock": true,
+                "category": "floral",
+                "sizes": [
+                    "50ml",
+                    "100ml"
+                ],
+                "colors": [
+                    "Pink Bottle",
+                    "Clear Bottle"
+                ]
+            },
+            {
+                "id": "pf688b56e5a310b",
+                "name": "Classic Black Suit",
+                "price": 23,
+                "originalPrice": 40,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jacket-3.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jacket-4.jpg",
+                "description": "1221232123",
+                "brand": "Hawaan",
+                "rating": 4,
+                "inStock": true,
+                "is_featured": true,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Black",
+                    "Navy",
+                    "Charcoal"
+                ]
+            }
+        ],
+        "oriental": [
+            {
+                "id": "po001",
+                "name": "Oriental Spice",
+                "price": 99.99,
+                "originalPrice": 130,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "description": "Rich oriental perfume with spicy notes",
+                "brand": "OrientalLux",
+                "rating": 4,
+                "inStock": true,
+                "category": "oriental",
+                "sizes": [
+                    "50ml",
+                    "100ml"
+                ],
+                "colors": [
+                    "Gold Bottle",
+                    "Black Bottle"
+                ]
+            },
+            {
+                "id": "po688b9e2d1c456",
+                "name": "Oriental",
+                "price": 12,
+                "originalPrice": 19,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "sdsadasd",
+                "brand": "Hawaan",
+                "rating": 2,
+                "inStock": true,
+                "is_featured": true,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "red",
+                    "purple",
+                    "pink"
+                ]
+            }
+        ],
+        "woody": [
+            {
+                "id": "pw001",
+                "name": "Sandalwood Essence",
+                "price": 79.99,
+                "originalPrice": 99.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "description": "Warm woody perfume with sandalwood base",
+                "brand": "WoodScents",
+                "rating": 4,
+                "inStock": true,
+                "category": "woody",
+                "sizes": [
+                    "50ml",
+                    "100ml"
+                ],
+                "colors": [
+                    "Brown Bottle",
+                    "Clear Bottle"
+                ]
+            }
+        ],
+        "fougere": [
+            {
+                "id": "pfo001",
+                "name": "Fresh Foug\u00e8re",
+                "price": 69.99,
+                "originalPrice": 89.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/perfume.jpg",
+                "description": "Fresh foug\u00e8re perfume with herbal notes",
+                "brand": "FreshScents",
+                "rating": 4,
+                "inStock": true,
+                "category": "fougere",
+                "sizes": [
+                    "50ml",
+                    "100ml"
+                ],
+                "colors": [
+                    "Green Bottle",
+                    "Clear Bottle"
+                ]
+            }
+        ]
+    },
+    "jewellery": {
+        "earrings": [
+            {
+                "id": "je001",
+                "name": "Diamond Stud Earrings",
+                "price": 199.99,
+                "originalPrice": 299.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jewellery-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jewellery-2.jpg",
+                "description": "Elegant diamond stud earrings",
+                "brand": "DiamondLux",
+                "rating": 5,
+                "inStock": true,
+                "category": "earrings",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Silver",
+                    "Gold",
+                    "Rose Gold"
+                ]
+            }
+        ],
+        "couplerings": [
+            {
+                "id": "jc001",
+                "name": "Couple Wedding Rings",
+                "price": 299.99,
+                "originalPrice": 399.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jewellery-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jewellery-2.jpg",
+                "description": "Beautiful couple wedding rings set",
+                "brand": "LoveRings",
+                "rating": 5,
+                "inStock": true,
+                "category": "couplerings",
+                "sizes": [
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "colors": [
+                    "Gold",
+                    "Silver",
+                    "Platinum"
+                ]
+            }
+        ],
+        "necklace": [
+            {
+                "id": "jn001",
+                "name": "Pearl Necklace",
+                "price": 149.99,
+                "originalPrice": 199.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jewellery-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jewellery-2.jpg",
+                "description": "Classic pearl necklace",
+                "brand": "PearlElegance",
+                "rating": 4,
+                "inStock": true,
+                "category": "necklace",
+                "sizes": [
+                    "16 inch",
+                    "18 inch",
+                    "20 inch"
+                ],
+                "colors": [
+                    "White Pearl",
+                    "Black Pearl",
+                    "Pink Pearl"
+                ]
+            }
+        ],
+        "bracelet": [
+            {
+                "id": "jb001",
+                "name": "Gold Bracelet",
+                "price": 179.99,
+                "originalPrice": 229.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/jewellery-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/jewellery-2.jpg",
+                "description": "Elegant gold bracelet",
+                "brand": "GoldCraft",
+                "rating": 4,
+                "inStock": true,
+                "category": "bracelet",
+                "sizes": [
+                    "Small",
+                    "Medium",
+                    "Large"
+                ],
+                "colors": [
+                    "Gold",
+                    "Rose Gold",
+                    "White Gold"
+                ]
+            }
+        ]
+    },
+    "mens-accessories": {
+        "sunglasses": [
+            {
+                "id": "mas001",
+                "name": "Aviator Sunglasses",
+                "price": 89.99,
+                "originalPrice": 120,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/glasses.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/glasses.jpg",
+                "description": "Classic aviator sunglasses",
+                "brand": "SunStyle",
+                "rating": 4,
+                "inStock": true,
+                "category": "sunglasses",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Black",
+                    "Brown",
+                    "Silver"
+                ]
+            }
+        ],
+        "watches": [
+            {
+                "id": "maw001",
+                "name": "Luxury Watch",
+                "price": 299.99,
+                "originalPrice": 399.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/watch-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/watch-2.jpg",
+                "description": "Premium luxury watch",
+                "brand": "TimeLux",
+                "rating": 5,
+                "inStock": true,
+                "category": "watches",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Silver",
+                    "Gold",
+                    "Black"
+                ]
+            },
+            {
+                "id": "mw688b9dea65600",
+                "name": "diamond watch",
+                "price": 356,
+                "originalPrice": 412,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "sdadsdsdad",
+                "brand": "Hawaan",
+                "rating": 3,
+                "inStock": true,
+                "is_featured": true,
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "colors": [
+                    "Blue",
+                    "Gray",
+                    "black",
+                    "Gold"
+                ]
+            }
+        ],
+        "wallets": [
+            {
+                "id": "maw001",
+                "name": "Leather Wallet",
+                "price": 59.99,
+                "originalPrice": 79.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/shoe-1_1.jpg",
+                "description": "Premium leather wallet",
+                "brand": "LeatherCraft",
+                "rating": 4,
+                "inStock": true,
+                "category": "wallets",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Black",
+                    "Brown",
+                    "Tan"
+                ]
+            }
+        ],
+        "shoes": [
+            {
+                "id": "mas001",
+                "name": "Casual Sneakers",
+                "price": 79.99,
+                "originalPrice": 99.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/sports-2.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/sports-4.jpg",
+                "description": "Comfortable casual sneakers",
+                "brand": "SportStyle",
+                "rating": 4,
+                "inStock": true,
+                "category": "shoes",
+                "sizes": [
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "colors": [
+                    "White",
+                    "Black",
+                    "Gray"
+                ]
+            }
+        ]
+    },
+    "electronics": {
+        "sw": [
+            {
+                "id": "esw001",
+                "name": "Smart Watch Pro",
+                "price": 299.99,
+                "originalPrice": 399.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/products\/watch-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/products\/watch-2.jpg",
+                "description": "Advanced smartwatch with health monitoring",
+                "brand": "TechPro",
+                "rating": 5,
+                "inStock": true,
+                "category": "sw",
+                "sizes": [
+                    "42mm",
+                    "46mm"
+                ],
+                "colors": [
+                    "Black",
+                    "Silver",
+                    "Gold"
+                ]
+            }
+        ],
+        "stv": [
+            {
+                "id": "estv001",
+                "name": "4K Smart TV",
+                "price": 799.99,
+                "originalPrice": 999.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/electronics-banner-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/electronics-banner-2.jpg",
+                "description": "Ultra HD 4K Smart TV with streaming apps",
+                "brand": "VisionTech",
+                "rating": 5,
+                "inStock": true,
+                "category": "stv",
+                "sizes": [
+                    "43 inch",
+                    "55 inch",
+                    "65 inch"
+                ],
+                "colors": [
+                    "Black"
+                ]
+            }
+        ],
+        "mouse": [
+            {
+                "id": "em001",
+                "name": "Wireless Gaming Mouse",
+                "price": 59.99,
+                "originalPrice": 79.99,
+                "image": "\/HawaanEcommerce\/assets\/images\/electronics-banner-2.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/electronics-banner-1.jpg",
+                "description": "High-precision wireless gaming mouse",
+                "brand": "GameTech",
+                "rating": 4,
+                "inStock": true,
+                "category": "mouse",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Black",
+                    "White",
+                    "RGB"
+                ]
+            }
+        ],
+        "microphone": [
+            {
+                "id": "emic001",
+                "name": "USB Microphone",
+                "price": 89.99,
+                "originalPrice": 120,
+                "image": "\/HawaanEcommerce\/assets\/images\/electronics-banner-1.jpg",
+                "hoverImage": "\/HawaanEcommerce\/assets\/images\/electronics-banner-2.jpg",
+                "description": "Professional USB microphone for streaming",
+                "brand": "AudioPro",
+                "rating": 4,
+                "inStock": true,
+                "category": "microphone",
+                "sizes": [
+                    "One Size"
+                ],
+                "colors": [
+                    "Black",
+                    "Silver"
+                ]
+            }
+        ]
+    }
+}
